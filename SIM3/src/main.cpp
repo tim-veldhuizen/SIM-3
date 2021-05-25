@@ -25,21 +25,6 @@ int start = 0;
 
 int s1, s2, s3, s4, s5, s6;
 
-void red(){
-  digitalWrite(rgbLedPinRed, LOW);
-  digitalWrite(rgbLedPinGreen, HIGH);
-  digitalWrite(rgbLedPinBlue, HIGH);
-}
-void green(){
-  digitalWrite(rgbLedPinRed, HIGH);
-  digitalWrite(rgbLedPinGreen, LOW);
-  digitalWrite(rgbLedPinBlue, HIGH);
-}
-void blue(){
-  digitalWrite(rgbLedPinRed, HIGH);
-  digitalWrite(rgbLedPinGreen, HIGH);
-  digitalWrite(rgbLedPinBlue, LOW);
-}
 
 void straight() {
   Serial.println("Driving straight");
